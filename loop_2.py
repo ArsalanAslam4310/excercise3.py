@@ -1,6 +1,8 @@
 
 
 for i in range(1,6,1):
-    print("*"*i)
+    for j in range(1,i):
+        print(j,end='')
+    print('\n')
 
 
