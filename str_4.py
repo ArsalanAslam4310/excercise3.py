@@ -1,8 +1,5 @@
 def show_employee(name, salary=9000):
+    print("employee name",name,"salary",salary)
     
-    return name,salary
-
 name=input("Enter a string")
-salary =int(input("Enter a salary"))
-employee=show_employee(name,salary)
-print(name,salary)
+show_employee(name)
