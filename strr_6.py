@@ -1,8 +1,8 @@
-def sun(number):
-    sum =0
-    for number in range(10+1):
-        sum += number
-    return sum
+def sum(x):
+    s =0
+    for number in range(x+1):
+        s += number
+    return s
 
-sum_num=sun(10+1)
+sum_num=sum(11)
 print(sum_num)
