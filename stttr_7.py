@@ -1,6 +1,6 @@
-def student(name,age):
+def print_student(name,age):
     print (name,age)
 
-student("Asad",24)
-show_student=student
+print_student("Asad",24)
+show_student=print_student
 show_student=("Asad",24)
