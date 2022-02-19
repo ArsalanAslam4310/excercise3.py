@@ -10,7 +10,7 @@ def bubble_sort(list_of_numbers,order=True):
         
         list_of_numbers[i],list_of_numbers[min_index]=list_of_numbers[min_index],list_of_numbers[i]
 
-    if !order:
+    if not order:
         list_of_numbers.reverse()
 
     return list_of_numbers   
