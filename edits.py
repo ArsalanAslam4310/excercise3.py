@@ -1,5 +1,3 @@
-
-
 def edit(lis,exist,new_occurence):
     for i in range(len(lis)):
         if lis[i]==exist:
